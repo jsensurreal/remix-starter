@@ -12,7 +12,7 @@ export default function Index() {
     <div className="flex flex-col w-full min-h-screen justify-center items-center" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1 className="text-xl font-bold">Welcome to Remix</h1>
       <ul className="text-center my-3">
-        <li>
+        <li className="hover:underline">
           <a
             target="_blank"
             href="https://remix.run/tutorials/blog"
@@ -21,7 +21,7 @@ export default function Index() {
             15m Quickstart Blog Tutorial
           </a>
         </li>
-        <li>
+        <li className="hover:underline">
           <a
             target="_blank"
             href="https://remix.run/tutorials/jokes"
@@ -30,7 +30,7 @@ export default function Index() {
             Deep Dive Jokes App Tutorial
           </a>
         </li>
-        <li>
+        <li className="hover:underline">
           <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
             Remix Docs
           </a>
