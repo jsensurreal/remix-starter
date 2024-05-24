@@ -9,9 +9,9 @@ export const meta = () => {
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+    <div className="flex flex-col w-full min-h-screen justify-center items-center" style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1 className="text-xl font-bold">Welcome to Remix</h1>
-      <ul>
+      <ul className="text-center my-3">
         <li>
           <a
             target="_blank"
